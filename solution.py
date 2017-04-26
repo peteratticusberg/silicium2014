@@ -47,15 +47,15 @@ def ordinal(widths, heights, size):  # has O(n) time complexity.
     return result
 
 
-X = 58
-Y = 45
-A = [1, 3, 8, 17, 27]
-# yields the widths: [30, 5, 4, 3, 2, 1]
-B = [1, 3, 6, 10, 15]
-# yields the heights: [31, 10, 9, 5, 2, 1]
-K = 12  # Per the table below, the 7th largest piece should have a size of 93
-
-print(solution(X, Y, K, A, B))
+# X = 58
+# Y = 45
+# A = [1, 3, 8, 17, 27]
+# # yields the widths: [30, 5, 4, 3, 2, 1]
+# B = [1, 3, 6, 10, 15]
+# # yields the heights: [31, 10, 9, 5, 2, 1]
+# K = 12  # Per the table below, the 7th largest piece should have a size of 93
+#
+# print(solution(X, Y, K, A, B))
 
 # Piece Size Rankings:
 # 1: 30 x 31: 930
