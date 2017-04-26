@@ -17,9 +17,6 @@ def calculate_lengths(side_length, cuts):
 
 
 def piece_size(widths, heights, piece_ordinal):  # has log(n) time complexity
-    print widths
-    print heights
-    print K
     N = len(widths)
     min_size = 1
     max_size = widths[N - 1] * heights[N - 1]
